@@ -34,10 +34,4 @@ html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Seg
 @media(max-width:880px){
 .hero{grid-template-columns:1fr;}
 .hero-right{order:-1;display:flex;justify-content:center}
-.nav-links{display:none}
-.menu-toggle{display:inline-block}
-}
-
-
-/* small touches */
 .role::before{content:'• ';color:var(--accent)}
